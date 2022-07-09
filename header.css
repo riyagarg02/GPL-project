@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Lato ,sans-serif;
+}
+.header{
+    background-color: blueviolet;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.header p, .header button{
+    display: inline-block;
+}
+.header button{
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+
+}
+.join-button{
+    margin-left:30px;
+    text-align: center;
+
+}
+.changelog-button{
+    margin-left: 40px;
+    text-align: center;
+
+}
+.logo{
+    padding: 0px;
+    width:300px;
+}
+.search-bar{
+    width: 500px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border-style: 1px;
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);    
+    font-size: 13px;
+}
+#search{
+    display: flex;
+    align-items: center;
+}
+#search button{
+    background-color: rgb(47, 90, 131);
+    padding: 10px;
+
+    
+}
+.login-button{
+    margin-left: 100px;
+    margin-right: 30px;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+}
+.cart-button{
+    margin-left: 40px;
+    margin-right: 30px;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+}
+#input-container{
+    position:relative;
+    padding: 0;
+    margin: 0;
+
+}
+.search-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 27px;
+    height: 20px;
+}
+.line{
+    border-left-width: 1px;
+    border-color: grey;
+    position: relative;
+    height: 25px;
+
+    margin-left: -3px;
+    border-left-style: solid;
+    display: inline-block;
+
+}
+#nav-bar ul{
+    background-color: black;
+    color: white;
+    padding: 11px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+nav > ul > li > a{
+    color: inherit;
+    text-decoration: none;
+}
+.membership img{
+    object-fit: contain;
+    width: 100%;
+    margin-top: 1px;
+    position: relative;
+}
+.membership-button{
+    position: absolute;
+    right: 350px;
+    z-index: 1;
+    bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: red;
+    cursor: pointer;    
+}
+
+.coupon img{
+    /* display: inline-block; */
+    margin-top: 20px;
+}
+.coupon{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    background-color: blue;
+    
+ 
+
+}
+#coupon-code{
+    text-align: center;
+}
+#membership-offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#offer{
+    text-align: center;
+    line-height: 2px;
+    background-color: pink;
+    height: 80px;
+    margin: 15px 5px 0px 5px ;
+    padding: 15px 0px 10px 0px;
+}
+#dollar, #type, #amount{
+    text-align: center;
+    line-height: 7px;
+}
+#dollar{
+    position: relative;
+    left: -30px;
+    top: 30px;
+    font-weight: bold;
+}
+#amount{
+    font-size: 50px;
+}
+#advantages{
+    list-style: none;
+    margin-top: 50px;
+}
+#advantages li{
+    font-family: "Font Awesome 5 Free";
+    margin: 10px 20px 10px 0px;
+}
+i{
+    float: left;
+    margin-right: 10px;
+}
+.line2{
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    position: relative;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+#join-now{
+    padding: 13px;
+    width: 100px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#hurry{
+    font-size: 20px;
+    margin-left: 100px;
+}
+#monthly-membership,
+#yearly-membership,
+#halfyearly-membership{
+    border: 2px solid lightgray;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+    flex: 1;
+    margin: 30px 40px 30px 40px;
+    background-color: rgba(255, 252, 252, 0.785);
+
+}
+#offers h3{
+    text-align: center;
+    
+}
+s{
+    position: relative;
+    left: 87px;
+    top: 90px; 
+    margin: 0;  
+    padding: 0;
+}
+.caraousel-container{
+    max-width: 100%;
+    position: relative;
+    margin: 0px 80px 0px 80px;
+}
+.slides{
+    width: 125px;
+    height: 100px;   
+}
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+
+}
+.next{
+    right: -50px;
+
+}
+.prev{
+    left: -50px;
+}
+.prev:hover,
+.next:hover{
+    color: #f2f2f2;
+
+}
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+.brand{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 50px;
+}
+
+#service img{
+    width: 75%;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.discount{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+
+}
+.discount p{
+    text-align: center;
+    padding: 10px;
+}
+#service p, #service s{
+    text-align: center;
+    padding: 10px;
+}
+#service{
+    width: 25%;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+#service s{
+    top: 1px;
+    left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+#services p{
+    font-size: 15px;
+}
+.qna{
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 20px 200px;
+    padding: 40px 50px;
+    background-color: rgba(231, 228, 227, 0.968);
+}
+#popular-plugins{
+    list-style: none;
+    margin-top: 10px;
+} 
+#popular-plugins a{
+    color: rgb(198, 34, 34);
+}
+#popular-plugins li{
+    margin-top: 10px;
+}
+.qna h1{
+    text-align: center;
+}
+#premium-wordpress{
+    list-style: none;
+}
+#premium-wordpress a{
+    color: rgb(198, 34, 34);;
+}
+#reasons h1,#reasons p{
+    text-align: center;
+}
+#reasons{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin: 0px 80px;
+    justify-content: space-evenly;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    grid-template-areas: 
+    "card-1 card-2 card-3"
+    "card-4 card-5 card-6";
+}
+#cards{
+    width: 250px;
+    padding: 40px;
+    background-color: rgba(62, 159, 62, 0.8);
+    height: 340px;
+
+}
+#question {
+    text-align: center;
+    font-weight: bold;
+}
+#image{
+    width: 190px;
+    height: 180px;
+    margin-left: 50px;
+    border-radius: 90px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 100px; */
+    width: 100%;
+    background-color: gray;
+    height: fit-content;
+    flex-basis: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+#disclaimer, #quick-links, #top-rated{
+    max-width: 15%;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px ;
+    color: white;
+
+}
+#quick-links li{
+    list-style: none;
+
+}
+#top-rated-services {
+    margin-top: 30px;
+    height: 80px;
+}
+
+.line3{
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(109, 107, 107);
+    position: relative;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+#stars s{
+    position: relative;
+    top: -150px;
+    left: 120px;
+    bottom: 0;
+
+}
+#stars p{
+    position: relative;
+    top: -80px;
+    left: 60px;
+    bottom: 0;
+}
+footer{
+    background-color: lightgray;
+    padding-bottom: 10px;
+    /* padding-top: 5px; */
+    padding-left: 50px;
+}
+footer div, footer p{
+    display: inline-block;
+}
+footer div{
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content > #links{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content #links > a:hover{
+    background-color: blue;
+    color: white;
+}
+.dropdown:hover .dropdown-content > #links{
+    display: block;
+}
